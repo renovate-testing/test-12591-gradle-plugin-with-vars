@@ -29,6 +29,9 @@ jobs:
         # You may pin to the exact commit or the version.
         # uses: Djiit/action-renovate@cb5a75bebd849a0f174f73f5d7f4d6e7f4d5ff72
         uses: aepfli/renovate-gradle-reproducer@main
+        with:
+          args: >
+            ${{ github.repository }}
         env:
           LOG_LEVEL: debug
           RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
