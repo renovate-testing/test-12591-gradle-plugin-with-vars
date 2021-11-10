@@ -28,7 +28,7 @@ jobs:
       - name: GitHub Action for Renovate
         # You may pin to the exact commit or the version.
         # uses: Djiit/action-renovate@cb5a75bebd849a0f174f73f5d7f4d6e7f4d5ff72
-        uses: renovatebot/github-action@main
+        uses: renovatebot/github-action@v29.3.4
         with:
           token: ${{ secrets.RENOVATE_TOKEN }}
         env:
