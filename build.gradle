@@ -1,3 +1,4 @@
 plugins {
-    id "at.schrottner.gitlab-repositories" version "${pluginVersion}"
+    id "at.schrottner.gitlab-repositories" version "${pluginVersion}" // does not work
+    id "com.diffplug.gradle.spotless" version "5.0.0" //works
 }
